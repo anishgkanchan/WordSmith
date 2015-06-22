@@ -1,0 +1,141 @@
+/*bootstrap overriding*/
+body {
+  padding-top: 130px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+#index-page
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-image: url('../images/typewriter.jpg');
+  background-size: 1400px 800px;
+  background-repeat: no-repeat;
+  display: compact;
+
+  
+}
+.btn-primary {
+ 
+  background-color: #33CC66;
+  border-color: #33CC66;
+
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  
+  background-color: #33CC66;
+  border-color: #33CC66;
+}
+
+  .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1 px solid #eee;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-control:focus {
+  border-color: #3C6;
+  border-width: 1px;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgba(238,238,238,0.8);
+  
+  
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+color: rgba(51,51,51,1);
+  margin-bottom: 10px;
+  
+}
+.form-signin-heading{
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+  color: rgba(51,51,51,1);
+
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#Main{
+  width:auto;
+  background-color: rgba(238,238,238,0.8)
+
+}
+#cyw {
+
+  font-size: 50px;
+  color: rgba(51,51,51, 1.0);
+text-align: center;
+}
+#title
+{
+  font-size: 100px;
+  color: rgba(51,51,51, 1.0);
+}
+#smith
+{
+  color: rgba(51,204,102,1.0);
+}
+#words
+{
+  color: rgba(51,204,102,1.0);
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#reg-form{
+  background-color: rgba(238,238,238,0.9);
+  
+}
+input:required{
+  border: 1px solid red;
+
+};
+/*bootstrap overriding ends*/

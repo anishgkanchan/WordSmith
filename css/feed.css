@@ -1,0 +1,173 @@
+.title
+{
+	margin-top:10px;
+	
+}
+.title p
+{
+	margin-top:-30px;
+	font-size: 180px;
+	text-align: center;
+	color:#333;
+}
+
+.title1 p
+{
+	
+	font-size: 150px;
+	color:#333;
+	margin-top: -10px;
+	margin-left: 100px;
+}
+.title1 img
+{
+	width:80px;
+	height:80px;
+
+}
+.title1 hr{
+	width:90%;
+	margin-top: -150px;
+	color:#3c6;
+	background-color: #3c6;
+	height:5px;
+}
+.title2 p
+{
+	
+	font-size: 80px;
+	color:#333;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+.title2 img
+{
+	width:50px;
+	height:50px;
+
+}
+.title2 hr{
+	width:80%;
+	margin-top: -70px;
+	color:#3c6;
+	background-color: #3c6;
+	height:5px;
+}
+.title3 p
+{
+	font-size: 50px;
+	color:#333;
+	margin-top: -150px;
+	margin-left: 150px;
+	margin-bottom: 200px;
+}
+.title3 img
+{
+	width:50px;
+	height:50px;
+}
+#exclamation
+{
+	width:50px;
+	height:80px;
+}
+/*.title3 a{
+	font-size: 50px;
+	color:#3c6;
+	margin-top: -150px;
+	margin-left: 150px;
+}*/
+.title3 a:hover{
+	color:#333;
+}
+.divid
+{
+	width:80%;
+	background-color:rgba(200,200,200,1);
+	border-left:50px solid #3c6;
+	border-radius: 10px;
+	padding-left:30px;
+	padding-top:10px;
+	margin:0 auto;
+	padding-bottom:10px;
+	margin-top:50px;
+
+	
+	 min-height:200px;
+     height:auto !important;
+     height:200px;
+}
+.divid h1
+{		
+	color: rgba(30,30,30,1);
+	font-size: 2.2em;
+	font-weight: 900;
+	
+}
+.divid img
+{
+	float:right;
+	right:10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	width:160px;
+	height:160px;
+
+}
+#gist
+{
+	
+	color: rgba(100,100,100,1);
+	font-style: italic;
+	font-size: 1.25em;
+	font-weight: 100;
+	margin-top: -10px;
+	margin-bottom: -5px;
+	
+}
+#username
+{
+	color: #41A317;
+	font-size: 1.15em;
+	font-weight: 100;
+	margin-top: -50px;
+	text-decoration: none;
+	letter-spacing: 0.06em;
+	margin-bottom: -5px;
+}
+#butt
+{
+	background-color: #3c6;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	color: #fff;
+	
+}
+
+.divid a:hover{
+	color:#000;
+}
+#timestamp
+{
+	margin-top: -5px;
+	font-size:0.8em;
+	color:rgba(50,50,50,1);
+}
+
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) { 
+
+	.cbp-qtrotator {
+		font-size: 70%;
+	}
+
+	.cbp-qtrotator img {
+		width: 80px;
+	}
+
+}

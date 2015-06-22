@@ -1,0 +1,40 @@
+/* General Demo Style */
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #89867e;
+	background: #eee;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+@media screen and (max-width: 25em) {
+
+	.ws-icon span {
+		display: none;
+	}
+
+}
+/*default for hover in categories.html*/
+.title
+{
+	font-size: 10em;
+	text-align: center;
+	color: #000;
+}

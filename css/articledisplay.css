@@ -1,0 +1,19 @@
+.divid
+{
+	width:80%;
+	margin:0 auto;
+	background-color:#dddddd;
+	border-left:5px solid #08A85E;
+	padding-left:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.divid h1,.divid h2, .divid p
+{
+		font-family: sans-serif;
+color: gray;
+}
+.timestamp
+{
+	font-size:0.8em;
+}

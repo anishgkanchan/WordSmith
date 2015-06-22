@@ -1,0 +1,238 @@
+/* General Demo Style */
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #89867e;
+  background: #eee;
+}
+
+a {
+  color: #888;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #333;
+}
+
+@media screen and (max-width: 25em) {
+
+  .ws-icon span {
+    display: none;
+  }
+
+}
+/*default for hover in categories.html*/
+/*hover effects in categories.html*/
+
+.grid {
+  padding: 0px 20px 100px 150px;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.grid li {
+  display: inline-block;
+  width: 220px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: -200px;
+  background: rgba(51,204,102,0.9);
+  color: rgba(51,51,51,1);
+}
+
+.grid figcaption h3 {
+  margin: 0;
+  padding-bottom: 50px;
+  color: rgba(258,258,258,1);
+  font-weight: 800;
+  font-size: 27px;
+
+}
+
+.grid figcaption span:before {
+
+}
+
+
+/* Individual Caption Styles */
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translate(15px, 15px);
+  -moz-transform: translate(15px, 15px);
+  -ms-transform: translate(15px, 15px);
+  transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+  margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+  display: block;
+}
+
+.cs-style-1 figcaption a {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 31.5em) {
+  .grid {
+    padding: 10px 10px 100px 10px;
+  }
+  .grid li {
+    width: 100%;
+    min-width: 200px;
+  }
+}
+.grid {
+  padding: 0px 20px 100px 150px;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.grid li {
+  display: inline-block;
+  width: 220px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: -200px;
+  background: rgba(51,204,102,0.9);
+  color: rgba(51,51,51,1);
+}
+
+.grid figcaption h3 {
+  margin: 0;
+  padding-bottom: 50px;
+  color: rgba(258,258,258,1);
+  font-weight: 800;
+  font-size: 27px;
+
+}
+
+.grid figcaption span:before {
+
+}
+/* Individual Caption Styles */
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translate(15px, 15px);
+  -moz-transform: translate(15px, 15px);
+  -ms-transform: translate(15px, 15px);
+  transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+  margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+  display: block;
+}
+
+.cs-style-1 figcaption a {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 31.5em) {
+  .grid {
+    padding: 10px 10px 100px 10px;
+  }
+  .grid li {
+    width: 100%;
+    min-width: 200px;
+  }
+}
+/*hover effects end*/
+
+/*search bar*/
+
+
+
+/*search bar ends*/
+/*hover effects end*/
+
+
